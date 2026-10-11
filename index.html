@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal website of Kaddu Joshua — electrical engineering, practical work, and career interests.">
+  <title>Kaddu Joshua | Personal Website</title>
+  <style>
+    :root { --navy:#10243a; --blue:#2463eb; --pale:#eef4ff; --ink:#182230; --muted:#5d6b7b; --white:#fff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--ink); line-height:1.65; background:#f8fafc; }
+    header { background:linear-gradient(135deg,#10243a,#234d80); color:white; padding:22px 20px 76px; }
+    nav { max-width:1000px; margin:auto; display:flex; justify-content:space-between; align-items:center; gap:14px; flex-wrap:wrap; }
+    nav a { color:white; text-decoration:none; margin-left:16px; font-size:.95rem; }
+    .brand { font-weight:800; letter-spacing:.2px; }
+    .hero { max-width:1000px; margin:66px auto 0; }
+    .eyebrow { color:#bcd2ff; text-transform:uppercase; letter-spacing:2px; font-size:.8rem; font-weight:700; }
+    h1 { font-size:clamp(2.5rem,8vw,4.6rem); line-height:1.05; margin:12px 0 18px; }
+    .hero p { max-width:650px; font-size:1.12rem; color:#e3ebf7; }
+    .button { display:inline-block; padding:12px 18px; margin:12px 10px 0 0; border-radius:10px; background:var(--blue); color:white; text-decoration:none; font-weight:700; }
+    .button.secondary { background:transparent; border:1px solid #bcd2ff; }
+    main { max-width:1000px; margin:-34px auto 0; padding:0 18px 55px; }
+    section { background:white; border:1px solid #e3e9f2; border-radius:18px; padding:26px; margin-bottom:18px; box-shadow:0 8px 28px rgba(16,36,58,.05); }
+    h2 { margin:0 0 12px; color:var(--navy); font-size:1.55rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; }
+    .tile { background:var(--pale); border-radius:12px; padding:18px; }
+    .tile h3 { margin:0 0 6px; color:var(--navy); font-size:1.05rem; }
+    .muted { color:var(--muted); }
+    .contact-list a { color:var(--blue); overflow-wrap:anywhere; }
+    footer { text-align:center; padding:24px 16px; color:var(--muted); font-size:.9rem; }
+    @media(max-width:520px) { nav a { margin:0 12px 0 0; } .hero { margin-top:48px; } section { padding:20px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="brand">KADDU JOSHUA</div>
+      <div>
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="eyebrow">Personal Website</div>
+      <h1>Hello, I'm<br>Kaddu Joshua.</h1>
+      <p>Welcome to my personal website. I am interested in electrical engineering, practical work, learning new skills, and building a meaningful career.</p>
+      <a class="button" href="#about">Get to know me</a>
+      <a class="button secondary" href="#contact">Contact me</a>
+    </div>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Kaddu Joshua. I am based in Uganda and have a background in electrical engineering studies. I value hard work, reliability, teamwork, and continuous learning. I am open to suitable work opportunities where I can contribute and grow.</p>
+      <p class="muted">You can edit this introduction to add your preferred location, qualifications, goals, and a short personal story.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills & Interests</h2>
+      <div class="grid">
+        <div class="tile"><h3>Electrical Engineering</h3><p>Electrical studies and interest in practical technical work.</p></div>
+        <div class="tile"><h3>Practical Work</h3><p>Willingness to learn, follow instructions, and work responsibly.</p></div>
+        <div class="tile"><h3>Teamwork</h3><p>Respectful communication, cooperation, and a dependable attitude.</p></div>
+        <div class="tile"><h3>Career Development</h3><p>Interested in gaining experience and developing new professional skills.</p></div>
+      </div>
+    </section>
+    <section id="experience">
+      <h2>Experience & Education</h2>
+      <p>Add your confirmed education details, certificates, and work history here. You can include the roles you have held, the dates, your responsibilities, and achievements.</p>
+      <p class="muted">Tip: only publish details that you are comfortable sharing publicly, and make sure dates and qualifications are accurate.</p>
+    </section>
+    <section id="contact" class="contact-list">
+      <h2>Contact Me</h2>
+      <p>If you would like to discuss work opportunities or connect professionally, please use the contact details below.</p>
+      <p><strong>Email:</strong> <a href="mailto:ADD-YOUR-EMAIL-HERE">Add your email address</a></p>
+      <p><strong>WhatsApp / Phone:</strong> Add the number you want visitors to use</p>
+      <p class="muted">Before publishing, replace these placeholders with the contact details you want to share publicly.</p>
+    </section>
+  </main>
+  <footer>© <span id="year">2026</span> Kaddu Joshua · Personal Website</footer>
+</body>
+</html>
